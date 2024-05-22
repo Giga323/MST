@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.wrapper .matrixesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.matrix {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.error {
+    color: red;
+}
+
+.matrix .row {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border-left: solid black 0.1em;
+    border-right: solid black 0.1em;
+}
+
+.matrix .row .column {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.button-calc-wrapper {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
